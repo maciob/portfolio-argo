@@ -11,7 +11,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: ./argo/apps
-    repoURL: 'http://github.com/maciob/portfolio-argo.git'
+    repoURL: 'http://github.com/maciob/portfolio-argocd.git'
     targetRevision: master
   project: default
   syncPolicy:
