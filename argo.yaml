@@ -10,7 +10,7 @@ spec:
     namespace: default
     server: 'https://kubernetes.default.svc'
   source:
-    path: ./apps
+    path: ./apps/
     repoURL: 'http://github.com/maciob/portfolio-argo.git'
     targetRevision: master
   project: default
